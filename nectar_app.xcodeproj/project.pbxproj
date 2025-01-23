@@ -11,6 +11,18 @@
 		3F3065232D4275B2000E5766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3065222D4275B2000E5766 /* ContentView.swift */; };
 		3F3065252D4275B3000E5766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3065242D4275B3000E5766 /* Assets.xcassets */; };
 		3F3065282D4275B3000E5766 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3065272D4275B3000E5766 /* Preview Assets.xcassets */; };
+		3F30652F2D427637000E5766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F30652E2D427637000E5766 /* LaunchScreen.storyboard */; };
+		3F3065352D42778D000E5766 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3065312D42778D000E5766 /* Gilroy-Bold.ttf */; };
+		3F3065362D42778D000E5766 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3065322D42778D000E5766 /* Gilroy-Regular.ttf */; };
+		3F3065372D42778D000E5766 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3065332D42778D000E5766 /* Gilroy-SemiBold.ttf */; };
+		3F30653A2D4278F8000E5766 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3065392D4278F8000E5766 /* UIExtension.swift */; };
+		3F3065402D427A7F000E5766 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 3F30653F2D427A7F000E5766 /* CountryPicker */; };
+		3F3065422D427AD0000E5766 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3065412D427AD0000E5766 /* LoginView.swift */; };
+		3F3065442D427B0E000E5766 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3065432D427B0E000E5766 /* SigninView.swift */; };
+		3F3065472D427B9A000E5766 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3065462D427B9A000E5766 /* iPhoneNumberField */; };
+		3F3065492D427BE5000E5766 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3065482D427BE5000E5766 /* Country.swift */; };
+		3F30654B2D427BFD000E5766 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30654A2D427BFD000E5766 /* CountryPickerView.swift */; };
+		3F30654D2D427C6B000E5766 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30654C2D427C6B000E5766 /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,17 @@
 		3F3065222D4275B2000E5766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F3065242D4275B3000E5766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3065272D4275B3000E5766 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F30652E2D427637000E5766 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3065302D427764000E5766 /* nectar-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "nectar-app-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3F3065312D42778D000E5766 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		3F3065322D42778D000E5766 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		3F3065332D42778D000E5766 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		3F3065392D4278F8000E5766 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		3F3065412D427AD0000E5766 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3F3065432D427B0E000E5766 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		3F3065482D427BE5000E5766 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		3F30654A2D427BFD000E5766 /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		3F30654C2D427C6B000E5766 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3065402D427A7F000E5766 /* CountryPicker in Frameworks */,
+				3F3065472D427B9A000E5766 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +76,13 @@
 		3F30651F2D4275B2000E5766 /* nectar_app */ = {
 			isa = PBXGroup;
 			children = (
-				3F3065202D4275B2000E5766 /* nectar_appApp.swift */,
-				3F3065222D4275B2000E5766 /* ContentView.swift */,
+				3F30653B2D427998000E5766 /* Login */,
+				3F3065302D427764000E5766 /* nectar-app-Info.plist */,
+				3F3065382D4278D2000E5766 /* UICommon */,
 				3F3065242D4275B3000E5766 /* Assets.xcassets */,
 				3F3065262D4275B3000E5766 /* Preview Content */,
+				3F30652E2D427637000E5766 /* LaunchScreen.storyboard */,
+				3F3065342D42778D000E5766 /* Font */,
 			);
 			path = nectar_app;
 			sourceTree = "<group>";
@@ -65,6 +93,38 @@
 				3F3065272D4275B3000E5766 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F3065342D42778D000E5766 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3F3065312D42778D000E5766 /* Gilroy-Bold.ttf */,
+				3F3065322D42778D000E5766 /* Gilroy-Regular.ttf */,
+				3F3065332D42778D000E5766 /* Gilroy-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		3F3065382D4278D2000E5766 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				3F3065392D4278F8000E5766 /* UIExtension.swift */,
+				3F3065482D427BE5000E5766 /* Country.swift */,
+				3F30654A2D427BFD000E5766 /* CountryPickerView.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		3F30653B2D427998000E5766 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3F3065222D4275B2000E5766 /* ContentView.swift */,
+				3F3065412D427AD0000E5766 /* LoginView.swift */,
+				3F3065432D427B0E000E5766 /* SigninView.swift */,
+				3F30654C2D427C6B000E5766 /* SignupView.swift */,
+				3F3065202D4275B2000E5766 /* nectar_appApp.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +143,10 @@
 			dependencies = (
 			);
 			name = nectar_app;
+			packageProductDependencies = (
+				3F30653F2D427A7F000E5766 /* CountryPicker */,
+				3F3065462D427B9A000E5766 /* iPhoneNumberField */,
+			);
 			productName = nectar_app;
 			productReference = 3F30651D2D4275B2000E5766 /* nectar_app.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,10 @@
 				Base,
 			);
 			mainGroup = 3F3065142D4275B2000E5766;
+			packageReferences = (
+				3F30653E2D427A7F000E5766 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+				3F3065452D427B9A000E5766 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = 3F30651E2D4275B2000E5766 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +193,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3065362D42778D000E5766 /* Gilroy-Regular.ttf in Resources */,
+				3F3065372D42778D000E5766 /* Gilroy-SemiBold.ttf in Resources */,
+				3F30652F2D427637000E5766 /* LaunchScreen.storyboard in Resources */,
 				3F3065282D4275B3000E5766 /* Preview Assets.xcassets in Resources */,
 				3F3065252D4275B3000E5766 /* Assets.xcassets in Resources */,
+				3F3065352D42778D000E5766 /* Gilroy-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +209,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F30654B2D427BFD000E5766 /* CountryPickerView.swift in Sources */,
 				3F3065232D4275B2000E5766 /* ContentView.swift in Sources */,
+				3F30653A2D4278F8000E5766 /* UIExtension.swift in Sources */,
+				3F3065442D427B0E000E5766 /* SigninView.swift in Sources */,
+				3F30654D2D427C6B000E5766 /* SignupView.swift in Sources */,
+				3F3065422D427AD0000E5766 /* LoginView.swift in Sources */,
+				3F3065492D427BE5000E5766 /* Country.swift in Sources */,
 				3F3065212D4275B2000E5766 /* nectar_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +352,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"nectar_app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nectar-app-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +381,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"nectar_app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nectar-app-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +422,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F30653E2D427A7F000E5766 /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+		3F3065452D427B9A000E5766 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F30653F2D427A7F000E5766 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F30653E2D427A7F000E5766 /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+		3F3065462D427B9A000E5766 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3065452D427B9A000E5766 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F3065152D4275B2000E5766 /* Project object */;
 }

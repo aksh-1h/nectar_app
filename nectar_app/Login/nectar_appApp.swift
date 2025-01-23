@@ -11,7 +11,7 @@ import SwiftUI
 struct nectar_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
     }
 }
