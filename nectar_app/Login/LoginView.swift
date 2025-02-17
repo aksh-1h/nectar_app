@@ -108,9 +108,9 @@ struct LoginView: View {
                     
                     
                     NavigationLink{
-                      
+                        SignUpView()
                     }label:{
-                        Text("Signup")
+                        Text("Sign up")
                             .foregroundColor(.green)
                             .font(.customfont(.regular, fontSize: 15))
                             .padding(.top,13)

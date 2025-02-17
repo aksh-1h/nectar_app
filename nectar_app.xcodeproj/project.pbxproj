@@ -23,6 +23,15 @@
 		3F3065492D427BE5000E5766 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3065482D427BE5000E5766 /* Country.swift */; };
 		3F30654B2D427BFD000E5766 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30654A2D427BFD000E5766 /* CountryPickerView.swift */; };
 		3F30654D2D427C6B000E5766 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30654C2D427C6B000E5766 /* SignupView.swift */; };
+		3F348ED72D4E4D7800B113D4 /* Apple1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F348ED62D4E4D7800B113D4 /* Apple1.swift */; };
+		3F3C10292D4D04BC007E0304 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C10282D4D04BC007E0304 /* HomeView.swift */; };
+		3F3C102B2D4D0C9D007E0304 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C102A2D4D0C9D007E0304 /* SearchTextField.swift */; };
+		3F3C102D2D4D1177007E0304 /* SectionTitleAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C102C2D4D1177007E0304 /* SectionTitleAll.swift */; };
+		3F7347292D59F4FF00479128 /* Banana .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7347282D59F4FF00479128 /* Banana .swift */; };
+		3F73472B2D59FC1C00479128 /* Red Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73472A2D59FC1C00479128 /* Red Apple.swift */; };
+		3F73472D2D5A037A00479128 /* Bell Peper Red.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73472C2D5A037A00479128 /* Bell Peper Red.swift */; };
+		3F7347312D5A052400479128 /* Ginger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7347302D5A052400479128 /* Ginger.swift */; };
+		3F7347352D5A0AEE00479128 /* HomeView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7347342D5A0AEE00479128 /* HomeView1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +51,15 @@
 		3F3065482D427BE5000E5766 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		3F30654A2D427BFD000E5766 /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
 		3F30654C2D427C6B000E5766 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		3F348ED62D4E4D7800B113D4 /* Apple1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple1.swift; sourceTree = "<group>"; };
+		3F3C10282D4D04BC007E0304 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3F3C102A2D4D0C9D007E0304 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		3F3C102C2D4D1177007E0304 /* SectionTitleAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleAll.swift; sourceTree = "<group>"; };
+		3F7347282D59F4FF00479128 /* Banana .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Banana .swift"; sourceTree = "<group>"; };
+		3F73472A2D59FC1C00479128 /* Red Apple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Red Apple.swift"; sourceTree = "<group>"; };
+		3F73472C2D5A037A00479128 /* Bell Peper Red.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bell Peper Red.swift"; sourceTree = "<group>"; };
+		3F7347302D5A052400479128 /* Ginger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ginger.swift; sourceTree = "<group>"; };
+		3F7347342D5A0AEE00479128 /* HomeView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 		3F3065142D4275B2000E5766 = {
 			isa = PBXGroup;
 			children = (
+				3F3C10272D4D03CE007E0304 /* Home */,
 				3F30651F2D4275B2000E5766 /* nectar_app */,
 				3F30651E2D4275B2000E5766 /* Products */,
 			);
@@ -111,6 +130,8 @@
 				3F3065392D4278F8000E5766 /* UIExtension.swift */,
 				3F3065482D427BE5000E5766 /* Country.swift */,
 				3F30654A2D427BFD000E5766 /* CountryPickerView.swift */,
+				3F3C102A2D4D0C9D007E0304 /* SearchTextField.swift */,
+				3F3C102C2D4D1177007E0304 /* SectionTitleAll.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -125,6 +146,36 @@
 				3F3065202D4275B2000E5766 /* nectar_appApp.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		3F348ED32D4E3E6200B113D4 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				3F348ED62D4E4D7800B113D4 /* Apple1.swift */,
+				3F7347342D5A0AEE00479128 /* HomeView1.swift */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		3F3C10272D4D03CE007E0304 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3F348ED32D4E3E6200B113D4 /* ProductCell */,
+				3F3C10282D4D04BC007E0304 /* HomeView.swift */,
+				3F7347252D59F2E500479128 /* MainTabView */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3F7347252D59F2E500479128 /* MainTabView */ = {
+			isa = PBXGroup;
+			children = (
+				3F7347282D59F4FF00479128 /* Banana .swift */,
+				3F73472C2D5A037A00479128 /* Bell Peper Red.swift */,
+				3F73472A2D59FC1C00479128 /* Red Apple.swift */,
+				3F7347302D5A052400479128 /* Ginger.swift */,
+			);
+			path = MainTabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,14 +260,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3C10292D4D04BC007E0304 /* HomeView.swift in Sources */,
+				3F73472D2D5A037A00479128 /* Bell Peper Red.swift in Sources */,
 				3F30654B2D427BFD000E5766 /* CountryPickerView.swift in Sources */,
+				3F7347312D5A052400479128 /* Ginger.swift in Sources */,
 				3F3065232D4275B2000E5766 /* ContentView.swift in Sources */,
 				3F30653A2D4278F8000E5766 /* UIExtension.swift in Sources */,
 				3F3065442D427B0E000E5766 /* SigninView.swift in Sources */,
+				3F3C102B2D4D0C9D007E0304 /* SearchTextField.swift in Sources */,
 				3F30654D2D427C6B000E5766 /* SignupView.swift in Sources */,
+				3F7347352D5A0AEE00479128 /* HomeView1.swift in Sources */,
 				3F3065422D427AD0000E5766 /* LoginView.swift in Sources */,
 				3F3065492D427BE5000E5766 /* Country.swift in Sources */,
+				3F73472B2D59FC1C00479128 /* Red Apple.swift in Sources */,
+				3F3C102D2D4D1177007E0304 /* SectionTitleAll.swift in Sources */,
+				3F348ED72D4E4D7800B113D4 /* Apple1.swift in Sources */,
 				3F3065212D4275B2000E5766 /* nectar_appApp.swift in Sources */,
+				3F7347292D59F4FF00479128 /* Banana .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

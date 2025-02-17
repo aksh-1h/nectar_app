@@ -57,6 +57,7 @@ struct SignInView: View {
                                     .navigationBarTitleDisplayMode(.inline)
                             }
                         }
+                        Divider()
                         iPhoneNumberField("Enter phone number", text: $phoneNumber)
                             .flagHidden(true)
                             .flagSelectable(false)
@@ -65,9 +66,7 @@ struct SignInView: View {
                     }
                     .padding(.horizontal, 24)
                     
-                    Rectangle()
-                        .frame(height: 1)
-                        .foregroundColor(.gray.opacity(0.3))
+                  Divider()
                         .padding(.horizontal, 30)
                         .padding(.bottom, 25)
                     
@@ -117,7 +116,7 @@ struct SignInView: View {
                         
                         HStack{
                             NavigationLink{
-                                SignInView()
+                                
                             }label:{
                                 Image("google")
                                     .resizable()
@@ -125,7 +124,7 @@ struct SignInView: View {
 
                             }
                             NavigationLink{
-                                SignInView()
+                                
                             }label:{
                                 Image("facebook")
                                     .resizable()
@@ -133,7 +132,7 @@ struct SignInView: View {
 
                             }
                             NavigationLink{
-                                SignInView()
+                                
                             }label:{
                                Image("apple_logo")
                                     .resizable()

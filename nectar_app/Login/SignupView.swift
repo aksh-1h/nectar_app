@@ -120,7 +120,7 @@ struct SignUpView: View {
                 .padding(.top)
             
             NavigationLink{
-               
+                LoginView()
             }label:{
                 Text("Login")
                     .foregroundColor(.green)
